@@ -50,5 +50,4 @@ class TestMiniTestPractice < MiniTest::Unit::TestCase
     end
     assert_equal "Hello", out  
   end
-
 end
