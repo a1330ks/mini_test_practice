@@ -48,7 +48,7 @@ class TestMiniTestPractice < MiniTest::Unit::TestCase
     out, err = capture_io do
       @my_class.say_hello
     end
-    assert_equal "Hello!", out  
+    assert_equal "Hello", out  
   end
 
 end
